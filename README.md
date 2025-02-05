@@ -23,3 +23,32 @@ Cloud Hostel is a comprehensive hostel management platform designed to streamlin
 - **Notifications:** Receive notifications for important updates and actions.
 - **Responsive Design:** The platform is fully responsive and works seamlessly on all devices.
 - **User Authentication:** Secure login and registration for users and administrators.
+
+
+- ## 🚀  List of Technologies used in the project
+
+- **React.js** - for building a dynamic and responsive user interface
+- **Express.js** - for developing backend APIs
+- **MongoDB** - for storing data in remote database
+- **Tailwind CSS** - for styling responsive user interface
+- **Tanstack Query** - for efficient data fetching
+
+
+## 🚀  NPM Packages used in the project
+
+- **React-Hook-form** - for managing forms
+- **React-toastify** - for elegant notifications and alerts
+- **React-icons** - for adding iconography and enhancing the UX
+- **Axios** - for efficient API calling
+  
+
+## 📂 Installation & Setup
+
+1. Clone the repository:
+   ```bash
+    git clone https://github.com/MethuParoi/cloud-hostel.git
+    cd cloud-hostel
+    npm install
+    npm run dev
+    ```
+
