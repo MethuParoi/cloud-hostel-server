@@ -38,7 +38,7 @@ module.exports = (db) => {
       const meals = await mealCollection.find(query).toArray();
       res.send(meals);
     } catch (error) {
-      res.status(500).send({ error: "Failed to fetch meals" });
+      res.status(500).send({ error: "Failed to fetch meal" });
     }
   });
 
