@@ -28,7 +28,7 @@ module.exports = (db) => {
       const reviews = await reviewCollection.find({}).toArray();
       res.send(reviews);
     } catch (error) {
-      res.status(500).send({ error: "Failed to fetch reviews" });
+      res.status(500).send({ error: "Failed to fetc reviews" });
     }
   });
 
