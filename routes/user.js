@@ -282,7 +282,7 @@ module.exports = (db) => {
         res.send({ admin: false });
       }
     } catch (error) {
-      res.status(500).send({ error: "Failed to ge admin" });
+      res.status(500).send({ error: "Failed to get admin" });
     }
   });
 
