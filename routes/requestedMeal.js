@@ -50,7 +50,7 @@ module.exports = (db) => {
         const { status } = req.body;
 
         if (!id || !status) {
-          return res.status(400).send({ error: "ID and status are required" });
+          return res.status(400).send({ error: "ID and status are require" });
         }
 
         // Update the requested meal with the specified ID
